@@ -23,7 +23,35 @@
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
-
+    <style media="screen">
+      .banner{
+        background-image: url("img/profile.png");
+        height: 50vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      header.masthead{
+        padding-top: 0 !important;
+      }
+      .banner-title{
+        /* margin-top: 2.6rem; */
+      }
+      .banner-subtitle{
+        margin-top: 1.8rem;
+      }
+      .header.masthead{
+        padding-bottom: 0;
+      }
+      header.masthead{
+        padding-bottom: 0 !important;
+      }
+      .banner-container{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+      }
+    </style>
   </head>
 
   <body id="page-top">
@@ -54,11 +82,14 @@
 
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
-      <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
-        <h1 class="text-uppercase mb-0">產品因色而美</h1>
-        <hr class="star-light">
-        <h2 class="font-weight-light mb-0">色彩專業，就交給展莉美</h2>
+      <div class="banner">
+
+      </div>
+      <div class="container banner-container">
+        <!-- <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt=""> -->
+        <h1 class="banner-title text-uppercase mb-0">產品因色而美</h1>
+        <!-- <hr class="star-light"> -->
+        <h2 class="banner-subtitle font-weight-light mb-0">色彩專業，就交給展莉美</h2>
       </div>
     </header>
 
