@@ -37,20 +37,20 @@ hr.star-dark:after {
 }
 
 hr.star-light {
-  border-color: #fff;
+  border-color: #18bc9c;
 }
 
 hr.star-light:after {
-  color: #fff;
+  color: #18bc9c;
   background-color: #18BC9C;
 }
 
 hr.star-dark {
-  border-color: #2C3E50;
+  border-color: #ffffff;
 }
 
 hr.star-dark:after {
-  color: #2C3E50;
+  color: #ffffff;
   background-color: white;
 }
 
