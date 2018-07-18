@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <meta property="og:image" content="https://i.imgur.com/fbhI0Xt.png">
     <title>展莉美有限公司-色母色粉專業</title>
 
     <!-- Bootstrap core CSS -->
@@ -23,7 +23,48 @@
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
-
+    <style media="screen">
+      .banner{
+        background-image: url("img/profile.png");
+        height: 50vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      header.masthead{
+        padding-top: 0 !important;
+      }
+      .banner-title{
+        /* margin-top: 2.6rem; */
+      }
+      .banner-subtitle{
+        margin-top: 1.8rem;
+      }
+      .header.masthead{
+        padding-bottom: 0;
+      }
+      header.masthead{
+        padding-bottom: 0 !important;
+      }
+      .banner-container{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+      }
+      .contact-wording{
+        text-align: center;
+        /* line-height: 4rem; */
+      }
+      .contact-wording span{
+        padding: 0 1rem;
+      }
+      .product-img{
+        background-image: url("img/portfolio/box.png");
+      }
+      .product-desc-wording{
+        font-size: 1.4rem;
+      }
+    </style>
   </head>
 
   <body id="page-top">
@@ -54,11 +95,14 @@
 
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
-      <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
-        <h1 class="text-uppercase mb-0">產品因色而美</h1>
-        <hr class="star-light">
-        <h2 class="font-weight-light mb-0">色彩專業，就交給展莉美</h2>
+      <div class="banner">
+
+      </div>
+      <div class="container banner-container">
+        <!-- <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt=""> -->
+        <h1 class="banner-title text-uppercase mb-0">產品因色而美</h1>
+        <!-- <hr class="star-light"> -->
+        <h2 class="banner-subtitle font-weight-light mb-0">色彩專業，就交給展莉美</h2>
       </div>
     </header>
 
@@ -74,6 +118,9 @@
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
+              </div>
+              <div class="product-img">
+
               </div>
               <img class="img-fluid" src="img/portfolio/box.png" alt="">
             </a>
@@ -158,7 +205,15 @@
     <section id="contact">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">聯絡我們</h2>
-        <hr class="star-dark mb-5">
+        <!-- <div class="contact-wording">
+          <span class="contact-tel">
+            Tel: 063555357
+          </span>
+          <br>
+          <span>
+            Address: 臺南市安南區安和路四段三十六巷四十五號
+          </span>
+        </div> -->
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
@@ -253,6 +308,15 @@
 
     <div class="copyright py-4 text-center text-white">
       <div class="container">
+        <div class="contact-wording">
+          <span class="contact-tel">
+            Tel &nbsp; 063555357
+          </span>
+          <br>
+          <span>
+            70965 &nbsp; 臺南市安南區安和路四段三十六巷四十五號
+          </span>
+        </div>
         <small>Copyright &copy; CLM since 2018</small>
       </div>
     </div>
@@ -278,7 +342,7 @@
               <h2 class="text-secondary text-uppercase mb-0">可微波便當盒</h2>
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/box.png" alt="">
-              <p class="mb-5">一次性塑膠便當盒採用符合 MSDS、REACH，以及SGS 檢驗標準之色母，可微波</p>
+              <p class="mb-5 product-desc-wording">一次性塑膠便當盒採用符合 MSDS、REACH，以及SGS 檢驗標準之色母，可微波</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 關閉視窗</a>
@@ -300,7 +364,7 @@
               <h2 class="text-secondary text-uppercase mb-0">蛋黃酥與月餅盒</h2>
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/case.png" alt="">
-              <p class="mb-5">展莉美長期與合作伙伴開發台灣常見名產伴手禮的鳳梨酥、蛋黃酥、月餅內盒，為您的餐飲安全衛生把關</p>
+              <p class="mb-5 product-desc-wording">展莉美長期與合作伙伴開發台灣常見名產伴手禮的鳳梨酥、蛋黃酥、月餅內盒，為您的餐飲安全衛生把關</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 關閉視窗</a>
@@ -322,7 +386,7 @@
               <h2 class="text-secondary text-uppercase mb-0">文具</h2>
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/cutter.png" alt="">
-              <p class="mb-5">文具除了能增加辦公環境的便利，美觀的設計與顏色亦能強化產品的價值</p>
+              <p class="mb-5 product-desc-wording">文具除了能增加辦公環境的便利，美觀的設計與顏色亦能強化產品的價值</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 關閉視窗</a>
@@ -344,7 +408,7 @@
               <h2 class="text-secondary text-uppercase mb-0">花卉盆栽</h2>
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/plant.png" alt="">
-              <p class="mb-5">喜歡綠意盎然或多肉植物的療癒嗎？ 我們提供的色母已生產於各種尺寸的盆栽，耐光性強，色彩亮眼又不搶了植物主體風采</p>
+              <p class="mb-5 product-desc-wording">喜歡綠意盎然或多肉植物的療癒嗎？ 我們提供的色母已生產於各種尺寸的盆栽，耐光性強，色彩亮眼又不搶了植物主體風采</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 關閉視窗</a>
@@ -366,7 +430,7 @@
               <h2 class="text-secondary text-uppercase mb-0">保特瓶蓋</h2>
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/lid.png" alt="">
-              <p class="mb-5">保特瓶蓋是塑膠保特瓶畫龍點睛的重點，紅色瓶蓋、綠色瓶蓋讓你第一時間想起了什麼飲料呢？ 趕快來設計能讓大眾印象深刻的特色瓶蓋！</p>
+              <p class="mb-5 product-desc-wording">保特瓶蓋是塑膠保特瓶畫龍點睛的重點，紅色瓶蓋、綠色瓶蓋讓你第一時間想起了什麼飲料呢？ 趕快來設計能讓大眾印象深刻的特色瓶蓋！</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 關閉視窗</a>
@@ -388,7 +452,7 @@
               <h2 class="text-secondary text-uppercase mb-0">幼兒安全桌椅</h2>
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/table.png" alt="">
-              <p class="mb-5">0~3 歲的幼兒腦部發育需要大量的顏色和幾何物件不斷的刺激、成長，展莉美與合作伙伴瞭解您對孩子的用心，所以於顏色的開發過程皆使用符合 RoHS、REACH與 SGS 合格標準的色母，讓您的孩子安心成長、快樂學習</p>
+              <p class="mb-5 product-desc-wording">0~3 歲的幼兒腦部發育需要大量的顏色和幾何物件不斷的刺激、成長，展莉美與合作伙伴瞭解您對孩子的用心，所以於顏色的開發過程皆使用符合 RoHS、REACH與 SGS 合格標準的色母，讓您的孩子安心成長、快樂學習</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 關閉視窗</a>
