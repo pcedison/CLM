@@ -26,7 +26,7 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
     },
     "dependencies": {
-        "bootstrap": "4.3.1",
+        "bootstrap": "4.6.2",
         "cryptiles": "^4.1.2",
         "font-awesome": "4.7.0",
         "jquery": "3.5.0",
